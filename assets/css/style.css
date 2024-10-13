@@ -1,0 +1,137 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.DivPadre {
+    display: flex;
+}
+.DivHijo1{
+    background-color: white;
+    color: black;
+    border: 2px solid #e8ebe4;
+    min-height: 100vh;
+    display: flex;
+    width: 25%;
+}
+
+ul{
+    list-style: none;
+    width: 100%;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 70px;
+    background-color: white;
+    border-bottom: 2px solid #e8ebe4;
+    font-size: small;
+}
+
+.Maria, .Divlista {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+}
+.tinythumbnail {
+    width: 45px; 
+    height: 45px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    border: 2px solid #e8ebe4;
+}
+.info > .pnombre {
+    font-size: 16px; 
+}
+.info > .activa {
+    font-size: 12px; 
+    color: #BEC1BB;
+}
+.info > .pinfo {
+    font-size: 14px; 
+}
+.container> .Mariaicons{
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    padding-right: 15px;
+    color: #BEC1BB;
+}
+
+.Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+.divbutton{
+    padding: 15px 60px;
+    background-color: #A491D2; 
+    color: #ffff;
+    font-size: 18px;
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+ 
+.divbutton a {
+    text-decoration: none;
+    color: inherit;
+}
+.divbutton:hover {
+    background-color: #cdc3e6;
+}
+
+.divbutton:focus{
+    background-color: #bec1bb;
+}
+
+
+.Button > a {
+    text-decoration: none;
+}
+
+.normalthumbnail {
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    border: 2px solid #e8ebe4;
+}
+
+
+
+
+
+
+
+.DivHijo2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+}
+.icono {
+    color: #ffff;
+    background-color: #A491D2;
+    border-radius: 10%;
+    font-size: 200px;
+    padding: 30px;
+    margin: 30px;
+}
+.DivHijo2 > .pnetworking {
+    font-size: 45px;
+}
+
+.DivHijo2 > .pinfonetworking {
+    padding-top: 5px;
+    font-size: 16px;
+    text-align: center;
+}
